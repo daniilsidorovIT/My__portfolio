@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  width: 100%;
+}
+
+
+.wrapper_info{
+padding-left: 100px;
+padding-right: 100px;
+}
+
+
+
+.container {
+  margin: auto 0;
+  width: 100%;
+}
+.projects_wrapper {
+  margin-left: 300px;
+}
+
+
+
+

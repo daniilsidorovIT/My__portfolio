@@ -1,0 +1,62 @@
+
+.my_competencies {
+    color: white;
+    margin-bottom: 80px;
+  }
+  
+  .my_competencies h2 {
+    margin-bottom: 48px;
+    margin-left: 120px;
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  
+  .competence__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    column-gap: 10px;
+    margin-bottom: 150px;
+  }
+  
+  .competence_item {
+    width: calc(50% - 5px);
+    font-family: inherit;
+  }
+  
+  .competence__title {
+    color: #1bff07;
+    margin-bottom: 15px;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .competence__title__height {
+    margin-bottom: 54px;
+  }
+  
+  .competence_item h3::before {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/resourse/html_ico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+  }
+  
+  .competence_item:nth-child(2) h3::before {
+    background-image: url(/resourse/js_ico.png);
+  }
+  .competence_item:nth-child(3) h3::before {
+    background-image: url(/resourse/framework_ico.png);
+  }
+  .competence_item:nth-child(4) h3::before {
+    background-image: url(/resourse/mobile_ico.png);
+  }
+  
+  .my_competencies__descr {
+    width: 403px;
+  }

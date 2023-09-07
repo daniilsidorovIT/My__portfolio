@@ -1,0 +1,123 @@
+.header {
+    background-image: url(../resourse/Developer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 765px;
+  }
+  .container {
+    width: 1150px;
+    margin: 0 auto;
+    min-width: 320px;
+  }
+  
+  .header__wrapper {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 765px;
+  }
+  
+  .header__menu {
+    width: 90%;
+    margin-bottom: 247px;
+    top: 25px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .logo-name {
+    color: #1bff07;
+    width: 130px;
+    height: 39px;
+    margin-left: 100px;
+    border-radius: 1px;
+    border-top: 70px;
+    border-bottom: 70px;
+    background: #000;
+  
+    flex-shrink: 0;
+    font-family: IBM Plex Mono;
+    font-size: 34.414px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -4.666px;
+    text-transform: uppercase;
+  }
+  
+  .nav {
+    display: block;
+  }
+  .nav__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  .nav_link {
+    color: #fff;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+  }
+
+  .nav_link:hover{
+    color: #1bff07;
+
+  }
+  
+  .header_description {
+    width: 430px;
+    height: 103px;
+    margin-left: 70px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+  }
+  
+  .header_title {
+    width: 919px;
+    height: 205px;
+    margin-left: 80px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    color: #1bff07;
+    font-family: IBM Plex Mono;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+  }
+  .development {
+    position: absolute;
+    width: 430px;
+    height: 103px;
+    left: 125px;
+    top: 334px;
+  
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+  
+    color: #ffffff;
+  }

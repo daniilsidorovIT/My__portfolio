@@ -1,0 +1,138 @@
+.recent {
+    height: 72px;
+    width: 1048px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-top: 150px;
+    border-radius: nullpx;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .discovery {
+    background-image: url(../resourse/studio_metrika.png);
+    margin: 0 auto;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 1027px;
+  }
+  
+  .discovery h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .discovery p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .glass {
+    background-image: url(../resourse/nothing.png);
+    margin: 0 auto;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 1577px;
+  }
+  
+  .glass h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .glass p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .fesiyen {
+    background-image: url(../resourse/toptrip.png);
+    margin: 0 auto;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 2127px;
+  }
+  
+  .fesiyen h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .fesiyen p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  
+  .btn {
+    margin: 100px auto 0 auto;
+    width: 582px;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 86px;
+    padding-top: 56px;
+    padding-bottom: 58px;
+    padding-right: 85px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    background: #1bff07;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    color: #1bff07;
+    border: 1px solid #1bff07;
+  }
